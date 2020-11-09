@@ -29,6 +29,12 @@ print(e)
 f="abc'def'ghi\nc:\ttest"
 print(f)
 
-# raw string : 역슬래시를 그냥 문자로 인식 
+# raw string : 역슬래시를 그냥 문자로 인식
 g=r"abc'def'\nc:\ttest"
 print(g)
+
+#문자열 더하기, 곱하기
+str1='Hello,'
+str2='World!'
+print(str1 + str2)
+print(str1 * 2 + str2)
