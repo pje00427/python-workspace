@@ -35,3 +35,7 @@ print(b)
 # 중첩
 c = ['a', 'b', 'c','d',['e','f','g'],'h']
 print(c[4][1])
+
+#배열 합치기
+#list + list
+print(b+c)
